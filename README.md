@@ -1,7 +1,7 @@
-| Field | Value |
+<img width="1457" height="697" alt="image" src="https://github.com/user-attachments/assets/7bf21fbe-011a-4f7e-8e90-517f3ff4549e" />| Field | Value |
 | --- | --- |
 | Repository URL | https://github.com/Endless1010/CSE134BHw4 |
-| Deployed URL | TODO: add the HW4 deployment URL |
+| Deployed URL | https://cse134bhw4bowen.netlify.app/ |
 
 # CSE 134B HW4: Bowen Wu
 
