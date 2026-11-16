@@ -12,7 +12,7 @@ The HW3 portfolio plus a behavior layer: a contact form (without and with JavaSc
 | Part | What | Where |
 | --- | --- | --- |
 | 1 and 2 | Contact form using only HTML and CSS: native fields, labels, `required`, `minlength`/`maxlength`, `:user-invalid`/`:user-valid` styling. No JavaScript. | `form-no-js.html` |
-| 3 | Same form enhanced with JavaScript: Constraint Validation API messages, error and info areas, character counter, `form_errors` history sent as `form-errors`. | `form-with-js.html`, `js/form.js` |
+| 3 | Same form enhanced with JavaScript: Constraint Validation API messages, error and info areas, character counter, `form_errors` history sent as `form-errors`. | `form-with-js.html`, `form.js` |
 | 4.1 | Light/dark theme switch saved in `localStorage`. | `js/theme.js`, `css/styles.css` |
 | 4.2 | View transitions: a same-document transition on the theme switch and cross-document page navigation. | `js/theme.js`, `css/styles.css` |
 
@@ -21,7 +21,7 @@ Both forms are linked from the main navigation ("Form (no JS)" and "Form (with J
 ## Files
 
 - `form-no-js.html`: script-free form. It always uses the default light theme and loads no JavaScript.
-- `form-with-js.html` + `js/form.js`: enhanced form, loaded with `defer`. No frameworks or libraries.
+- `form-with-js.html` + `form.js` (repository root): enhanced form, loaded with `defer`. No frameworks or libraries.
 - `js/theme.js`: theme switch, loaded in the `<head>` so the saved theme applies before the page paints. Not loaded by `form-no-js.html`.
 - `css/styles.css`: shared stylesheet for every page, including the dark theme variables and view transition rules.
 - Everything else: the HW3 portfolio (`index.html`, `about.html`, `projects.html`, `experience.html`, `contact.html`, `experiments.html`, `projects/`).
